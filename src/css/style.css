@@ -1,0 +1,23 @@
+#container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    font-family: 'VT323',monospace;
+    color:whitesmoke;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+background-color: rgba(170, 139, 86,0.7);
+width: 370px;
+border: 2px solid #fefefe;
+}
+
+.abas img {
+    width: 30px;
+}

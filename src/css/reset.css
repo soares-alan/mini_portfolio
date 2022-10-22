@@ -1,0 +1,20 @@
+/* Arquivo RESET.CSS (reset nos estilos das tags padrões do navegador) */
+
+/* (*) Esse seletor aplicará uma propriedade CSS, nesse caso pegará todas as tags e forçará um Margin: 0% e etc*/
+*{
+    /* Margin - conteudo externo */
+    margin: 0%;
+    /* Padding - conteudo interno */
+    padding: 0%;
+    /*  */
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration:none ;
+    color: black;
+}
