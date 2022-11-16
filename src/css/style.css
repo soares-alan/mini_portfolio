@@ -1,7 +1,7 @@
-#container {
+body {
     width: 100vw;
     height: 100vh;
-    background-image: url(../images/background.jpg);
+    background-image: url(../images/ios.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -10,12 +10,13 @@
     font-size: 18px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .card {
-background-color: rgba(170, 139, 86,0.7);
-width: 370px;
-border: 2px solid #fefefe;
+    background-color: rgba(170, 139, 86,0.7);
+    width: 370px;
+    border: 2px solid #FFBF00;
 }
 
 .abas img {
