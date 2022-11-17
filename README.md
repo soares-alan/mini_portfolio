@@ -1,7 +1,7 @@
 # [Mini Portfólio](https://soares-alan.github.io/mini_portfolio/) | <img align="center" alt="Alan-HTML" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">HTML, <img align="center" alt="Alan-CSS" height="35" width="45" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">CSS e <img align="center" alt="Alan-Js" height="35" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg">JavaScript.
 
 ## :page_facing_up: Sobre o Projeto
-- Este projeto trata-se de um mini portfólio que foi desenvolvido como parte da MapaDev Week - evento feito pela [Dev em Dobro](https://github.com/devemdobro) em outubro de 2022.
+- Este projeto trata-se de um mini portfólio que foi desenvolvido como parte da MapaDev Week.
 - Criado em 16/11/2022
 ---
 ## :framed_picture: Imagens do Projeto
