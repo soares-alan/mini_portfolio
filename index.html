@@ -1,70 +1,93 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Portfólio | Alan Soares</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="./src/css/style.css">
-  <link rel="stylesheet" href="./src/css/reset.css">
-  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
-  <title>Pixel Art - Mini Portifolio</title>
-</head>
+    <!-- LINK FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
 
-<body>
-      <!--conteudo principal-->
-    <main class="card">
-      <div class="infos">
-        <img src="./src/images/perfil.png" alt="avatar perfil" />
-        <h1 class="name">Alan Soares</h1>
-        <h2 class="job">Junior Web Developer</h2>
+    <!-- LINKS CSS -->
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css" />
+    <link rel="stylesheet" href="./src/css/rolagem.css" />
+  </head>
+
+  <body>
+    <main class="cartao">
+      <div class="minhas-informacoes">
+        <img src="./src/img/perfil.png" alt="Imagem de perfil" />
+        <h1 class="nome">Alan Soares</h1>
+        <h2 class="cargo">Desenvolvedora Frontend</h2>
       </div>
-        <div class="content">
-          <!--lista não ordenada-->
-          <ul class="abas">
-            <!--itens dentro da lista-->
-            <li class="aba select">
-              <img src="./src/images/sobre.gif" alt="sobre mim icone" />
-            </li>
-            <li class="aba">
-              <img src="./src/images/coracao.gif" alt="redes sociais icone" />
-            </li>
-          </ul>
-          <div class="infos-abas">
-            <div class="informacao select">
-              <div>
-                <h3>About me</h3>
-                <div class="description">
-                  <p>Hi ! My name is Alan Soares.</p>
-                  <p>
-                    Computer science student and web developer.
-                    Adept at commented code and lover of web accessibility.
-                    Welcome to my little project inspired by the pixel arts arts of the
-                    90s. Did you like it ? <span class="click">click</span> in the <span class="heart">heart</span> and
-                    follow me on social media,,enjoy!.
-                  </p>
-                </div>
-              </div>
-              <div class="informacao">
-                <h3 class="sub_title">Follow me</h3>
-                <ul class="social_networks">
-                  <li>
-                    <a href="https://www.linkedin.com/in/soares-alan/" target="_blank" class="linkedin">Linkedin</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/soares-alan/soares-alan" target="_blank" class="github">Github</a>
-                  </li>
-                  <li><a href="" target="_blank" class="curriculo">Curriculo</a></li>
-                </ul>
-              </div>
+
+      <div class="conteudo">
+        <ul class="abas">
+          <li class="aba selecionado" id="sobre-mim">
+            <img src="./src/img/sobre.gif" alt="Icone sobre mim" />
+          </li>
+          <li class="aba" id="minhas-redes">
+            <img src="./src/img/coracao.gif" alt="icone de redes sociais" />
+          </li>
+        </ul>
+
+        <div class="informacoes-abas">
+          <div class="informacao selecionado" id="informacao-sobre-mim">
+            <h3 class="sub-titulo">Sobre</h3>
+
+            <div class="descricao">
+              <p>Hello, world! Meu nome é Alan Soares, seja bem-vindo(a)!</p>
+              <p>
+                Estudante de ciência da computação e apaixonado pela programação
+                desde o meu primeiro contato. Adepto ao codigo semântico,limpo e
+                grande fã da acessibilidade web. Trabalho com
+                <span>HTML, CSS , JavaScript</span> e suas frameworks.
+                Criatividade e interessão com o usuário são os pontos chaves dos
+                meus projetos.
+              </p>
             </div>
           </div>
+
+          <div class="informacao" id="informacao-minhas-redes">
+            <h3 class="sub-titulo">Minhas Redes</h3>
+            <ul class="redes-sociais">
+              <li>
+                <a
+                  href="https://mail.google.com/mail/u/0/?fs=1&to=milkboxdev@gmail.com&su=SUBJECT&body=&&tf=cm"
+                  target="_blank"
+                  class="curriculo"
+                  >E-Mail</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/soares-alan/"
+                  target="_blank"
+                  class="linkedin"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/soares-alan/soares-alan"
+                  target="_blank"
+                  class="github"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </main>
-    <!--JS script link-->
-<script src="./src/js/index.js"></script>
-</body>
 
+    <script src="./src/js/index.js"></script>
+  </body>
 </html>
-
