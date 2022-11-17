@@ -15,7 +15,7 @@
   <tr>
     <td align="center">
       <a href="hhttps://github.com/soares-alan">
-        <img src="https://imageup.me/gs1" 
+        <img src="https://avatars.githubusercontent.com/u/86978240?v=4" 
         width="100px;" alt="Alan Soares"/>
         <br/>
         <sub>
