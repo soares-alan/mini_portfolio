@@ -1,9 +1,9 @@
 body {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-image: url(../img/ios.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:2000px;
   background-position: center;
   font-family: "VT323", monospace;
   color: #eceec9;
@@ -20,7 +20,6 @@ body {
   border: 3.5px solid #ffbf00;
   border-radius: 10px;
   overflow: hidden;
-  margin-top: 6%;
 }
 
 .cartao .minhas-informacoes {
@@ -29,6 +28,7 @@ body {
   align-items: center;
   padding: 20px;
   gap: 10px;
+  
 }
 
 .cartao .minhas-informacoes img {
@@ -52,6 +52,7 @@ body {
 }
 
 .cartao .conteudo {
+  background-color: rgba(169, 170, 86, 0.4);
   margin-top: 15px;
 }
 
@@ -85,7 +86,7 @@ body {
   padding: 15px;
   display: none;
 }
-/* parei aqui */
+
 .informacoes-abas .informacao.selecionado {
   display: block;
   background-color: rgba(169, 170, 86, 0.6);
