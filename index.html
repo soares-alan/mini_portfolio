@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini Portfólio | Alan Soares</title>
+
+    <!-- LINK FONTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- LINKS CSS -->
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/estilos.css" />
+    <link rel="stylesheet" href="./src/css/rolagem.css" />
+  </head>
+
+  <body>
+    <main class="cartao">
+      <div class="minhas-informacoes">
+        <img src="./src/img/perfil.png" alt="Imagem de perfil" />
+        <h1 class="nome">Alan Soares</h1>
+        <h2 class="cargo">Desenvolvedor Frontend</h2>
+      </div>
+
+      <div class="conteudo">
+        <ul class="abas">
+          <li class="aba selecionado" id="sobre-mim">
+            <img src="./src/img/sobre.gif" alt="Icone sobre mim" />
+          </li>
+          <li class="aba" id="minhas-redes">
+            <img src="./src/img/coracao.gif" alt="icone de redes sociais" />
+          </li>
+        </ul>
+
+        <div class="informacoes-abas">
+          <div class="informacao selecionado" id="informacao-sobre-mim">
+            <h3 class="sub-titulo">Sobre</h3>
+
+            <div class="descricao">
+              <p>Hello, world! Meu nome é Alan Soares, seja bem-vindo(a)!</p>
+              <p>
+                Estudante de ciência da computação e apaixonado pela programação
+                desde o meu primeiro contato. Adepto ao codigo semântico,limpo e
+                grande fã da acessibilidade web. Trabalho com
+                <span>HTML, CSS , JavaScript</span> e suas frameworks.
+                Criatividade e interação com o usuário são os pontos chaves dos
+                meus projetos.
+              </p>
+            </div>
+          </div>
+
+          <div class="informacao" id="informacao-minhas-redes">
+            <h3 class="sub-titulo">Minhas Redes</h3>
+            <ul class="redes-sociais">
+              <li>
+                <a
+                  href="https://mail.google.com/mail/u/0/?fs=1&to=milkboxdev@gmail.com&su=SUBJECT&body=&&tf=cm"
+                  target="_blank"
+                  class="curriculo"
+                  >E-Mail</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.linkedin.com/in/soares-alan/"
+                  target="_blank"
+                  class="linkedin"
+                  >LinkedIn</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://github.com/soares-alan"
+                  target="_blank"
+                  class="github"
+                  >GitHub</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
